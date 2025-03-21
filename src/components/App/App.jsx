@@ -1,9 +1,10 @@
 
 import './App.css'
 // import Profile from "../Profile/Profile";?
+import friends from "../friends.json"
 import userData from "../userData.json";
-import Profile from '../Profile';
-
+import Profile from '../Profile/Profile';
+import FriendList from '../FriendList/FriendList';
 
 export default function App(){
   return (
@@ -15,9 +16,14 @@ export default function App(){
          image={userData.avatar}
          stats={userData.stats}
     />     
+    
+    <FriendList friends = {friends} />
+
+    {/* <TransactionHistory items={transactions} /> */}
     </>
   );
 };
 // import { useState } from 'react'
 
 // export default App
+

@@ -5,11 +5,16 @@
   font-size: 1em;  
   font-family: Arial, sans-serif;
   border: 2px solid black;
-};
-  
-.th, .td {  
-  border: 2px solid black;  text-align: left;  
-  padding: 8px};
+}
+.th,
+ .td {  
+  border: 2px solid black;
+  text-align: left;  
+  padding: 8px;
+}
+
 .th {  
-  background-color: #4CAF50;  
-  color: white;}
+  background-color: black;  
+  color: white;
+}
+  

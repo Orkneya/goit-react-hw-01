@@ -2,9 +2,9 @@ import s from './TransactionHistory.module.css'
 const TransactionHistory = ({items}) => {
   return (
     <div>
-      <table className={s.table}>
-  <thead>
-    <tr>
+  <table className={s.table}>
+  <thead >
+    <tr className={s.tr}>
       <th className={s.th}>Type</th>
       <th className={s.th}>Amount</th>
       <th className={s.th}>Currency</th>

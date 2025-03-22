@@ -12,17 +12,17 @@
 .list{
   font-size: 1.5rem;
   display: flex;
-  /* justify-content: space-between; */
-  /* gap:30px; */
+  align-items: center;
+  padding: 0;
   list-style: none;
-  /* padding: 40px; */
    background-color: lightgrey;
 }
 .item{
-  width: 275px;
+  width: 265px;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   font-size: 2em;
   padding: 40px;
   border: 2px solid black;
